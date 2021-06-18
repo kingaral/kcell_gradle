@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.repository;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -7,7 +11,10 @@ import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.security.web.csrf.CsrfTokenRepository;
 import org.springframework.security.web.csrf.DefaultCsrfToken;
 import org.springframework.stereotype.Repository;
-
+/*
+* This is token, which used for Security
+*
+* */
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.time.LocalDateTime;

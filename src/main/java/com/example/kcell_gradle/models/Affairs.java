@@ -1,5 +1,18 @@
 package com.example.kcell_gradle.models;
 
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
+
+/*
+*
+* This is a main body of my Affairs and used him like main Entity.
+* I also created getters, setters and toString methods.
+*
+* */
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -21,9 +34,6 @@ import java.time.LocalDate;
         this.affairDate = affairDate;
     }
 
-    public Long getId() {
-        return id;
-    }
 
     public void setId(Long id) {
         this.id = id;
@@ -53,9 +63,6 @@ import java.time.LocalDate;
         this.done = done;
     }
 
-    public LocalDate getAffairDate() {
-        return affairDate;
-    }
 
     @Override
     public String toString() {

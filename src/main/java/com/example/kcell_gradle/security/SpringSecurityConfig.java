@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.security;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.repository.JwtTokenRepository;
 import com.example.kcell_gradle.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +18,9 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.csrf.CsrfFilter;
 import org.springframework.web.servlet.HandlerExceptionResolver;
-
+/*
+* This is main configuration of security, there are we define with requests allowed and forbitten
+* */
 @Configuration
 @EnableWebSecurity
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {

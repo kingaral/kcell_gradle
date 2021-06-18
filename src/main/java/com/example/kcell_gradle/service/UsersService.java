@@ -1,12 +1,18 @@
 package com.example.kcell_gradle.service;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.models.Users;
 import com.example.kcell_gradle.repository.UsersRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
+/*
+* This is User server, I used him for searching authorized users and etc.
+* */
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;

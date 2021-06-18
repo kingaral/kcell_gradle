@@ -1,12 +1,17 @@
 package com.example.kcell_gradle.repository;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.models.Affairs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/* This file contain initial date for loading into database Affairs
+* */
 import java.time.LocalDate;
 
 @Configuration

@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.service;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.exception.AffairsNotFoundException;
 import com.example.kcell_gradle.models.Affairs;
 import com.example.kcell_gradle.repository.AffairsRepository;
@@ -7,7 +11,11 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.WebApplicationContext;
-
+/*
+*
+* This is a implementation of AffairService
+*
+* */
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;

@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.exception;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.repository.JwtTokenRepository;
 import lombok.Getter;
 import org.springframework.security.core.AuthenticationException;

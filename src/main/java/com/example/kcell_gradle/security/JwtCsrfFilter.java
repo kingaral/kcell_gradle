@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.security;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.repository.JwtTokenRepository;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
@@ -17,7 +21,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+/*
+* This is JwtFilter, it's corresponds for filtering internal request.
+* */
 public class JwtCsrfFilter extends OncePerRequestFilter {
 
     private final CsrfTokenRepository tokenRepository;

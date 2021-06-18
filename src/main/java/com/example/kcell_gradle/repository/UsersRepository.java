@@ -1,10 +1,16 @@
 package com.example.kcell_gradle.repository;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.models.Users;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+/*
+* Here, I create Users, they will used for authorization
+* */
 @Repository
 public class UsersRepository {
 

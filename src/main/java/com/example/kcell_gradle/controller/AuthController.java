@@ -1,5 +1,9 @@
 package com.example.kcell_gradle.controller;
-
+/*
+ * @author Токмурзин Мукагали
+ * @version 1.0
+ * @email mukagali.2002.05@gmail.com
+ */
 import com.example.kcell_gradle.models.Users;
 import com.example.kcell_gradle.service.UsersService;
 import org.springframework.http.MediaType;
@@ -12,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Objects;
-
+/* This also rest controller, but he response for authorization and giving token*/
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
